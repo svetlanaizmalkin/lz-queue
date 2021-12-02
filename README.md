@@ -9,8 +9,7 @@
 - Инпут для фамилии обязательно должен иметь name="surname"
 * Получать лист pdf из endpoints/list.php
 ## Пример:
-<
-  //Форма для регистрации в очереди
+<//Форма для регистрации в очереди
   <form action="./endpoints/person.php" method="post">
     <label>
       Имя: <input type="text" name="name" id="name">
@@ -23,7 +22,6 @@
   //Форма для получения списка людей в очереди
   <form method="post" action="./endpoints/list.php">
     <button type="submit">Получить список очереди</button>
-  </form>
->
+  </form>>
 
 Пример можно посмотреть в файле example.html
