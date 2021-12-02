@@ -9,19 +9,6 @@
 - Инпут для фамилии обязательно должен иметь name="surname"
 * Получать лист pdf из endpoints/list.php
 ## Пример:
-<//Форма для регистрации в очереди
-  <form action="./endpoints/person.php" method="post">
-    <label>
-      Имя: <input type="text" name="name" id="name">
-    </label>
-    <label>
-      Фамилия: <input type="text" name="surname">
-    </label>
-    <button type="submit">Зарегистрироваться</button>
-  </form>
-  //Форма для получения списка людей в очереди
-  <form method="post" action="./endpoints/list.php">
-    <button type="submit">Получить список очереди</button>
-  </form>>
+![image](https://user-images.githubusercontent.com/69728673/144420893-da402fff-6132-4f12-9c53-6530795bb731.png)
 
 Пример можно посмотреть в файле example.html
