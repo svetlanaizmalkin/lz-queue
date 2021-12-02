@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="./endpoints/person.php" method="post">
+    <label>
+      Имя: <input type="text" name="name" id="name">
+    </label>
+    <label>
+      Фамилия: <input type="text" name="surname">
+    </label>
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+  <form method="post" action="./endpoints/list.php">
+    <button type="submit">Получить список очереди</button>
+  </form>
+  
+</body>
+</html>
